@@ -11,24 +11,37 @@ body{
     background-color: white;
     margin: 0px auto;
 }
-#profile__img{
+#container{
     text-align: center;
     margin-top: 64px;
     cursor: pointer;
     position: relative;
 }
-#profile__img img:hover{
-   filter: grayscale(70%);
-}
-
-#overlay{
+.overlay{
     text-align: center;
     position: absolute; 
-    top: 60px;
-    left: 49.5%;
-    height: 19px;
-    width: 20px;
-    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    background: #344054;
+    clip-path: circle(44px);
+}
+.camera{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#container:hover .overlay{
+    opacity: 0.8;
+}
+#image-camera{
+    margin-top: 40px;
+
 }
 .name{
     text-align: center;

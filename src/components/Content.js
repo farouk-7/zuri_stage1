@@ -3,21 +3,24 @@ import './Content.css';
 function Content() {
   const style = { color: "black",  }
   
-  const image= document.querySelector("#overlay")
-  const handleOver=()=>{
-     image.style.display="block";
-  }
-  const handleOut=()=>{
-    image.style.display="none"
-  }
+  // const image= document.querySelector("#image-camera")
+  // const handleOver=()=>{
+  //    image.style.display="block";
+  // }
+  // const handleOut=()=>{
+  //   image.style.display="none"
+  // }
+
   return (
    
     <div className='contents'>
         <div className='contents-container'>
-            <div id='profile__img'>
-              <img id=""src ='./images/DP.png'onMouseOver={handleOver} onMouseOut={handleOut}></img>
-              <div id='overlay'>
-                  <img src='./images/camera.png'></img>
+            <div id='container'>
+              <img src ='./images/DP.png' id='profile__image'></img>
+              <div className='overlay'>
+                <div className='camera'>
+                  <img src='./images/camera.png' id='image-camera'></img>
+                </div>
               </div>
             </div>
 
