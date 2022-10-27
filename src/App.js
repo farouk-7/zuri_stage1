@@ -1,24 +1,46 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Content from './components/Content';
+import Link from './components/Link';
+import Social from './components/Social'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='contacts'>
+    <Content/>
+    <Link
+    address="https://www.twitter.com/opeoluwaoyedeji"
+    name="Twitter Link"
+    />
+    <Link
+    address="https://training.zuri.team/"
+    name="Zuri Team"
+    />
+    <Link
+    address="http://books.zuri.team"
+    name="Zuri Books"
+    />
+     <Link
+    address="https://books.zuri.team/"
+    name="Python Books"
+    />
+     <Link
+    address="https://background.zuri.team/"
+    name="Background Check for Coders"
+    />
+     <Link
+    address="https://books.zuri.team/design-rules/"
+    name="Design Books"
+    />
+    <Social/>
+    <Footer/>
+
+
+
+
     </div>
+    
   );
 }
 

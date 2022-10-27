@@ -1,0 +1,35 @@
+#twitter{
+  font-size: 18px;
+  align-items: center;
+}
+.link-container{
+   display:flex;
+   flex-direction: column;
+    text-align: center;
+    background-color: #EAECF0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    height: 76px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    align-items: center; 
+    justify-content: center;
+    border-color: none;
+}
+.link-container:hover{
+   border: 2px solid rgb(64, 64, 168);
+}
+a{
+    text-decoration: none;
+    color: #101828;
+    text-align: center;
+}
+@media (max-width: 768px){
+  .link-container{
+    margin: 24px 16px;
+ }
+ #twitter{
+  font-size: 14px;
+}
+
+}
