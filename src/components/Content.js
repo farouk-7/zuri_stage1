@@ -2,14 +2,6 @@ import React from 'react'
 import './Content.css';
 function Content() {
   const style = { color: "black",  }
-  
-  // const image= document.querySelector("#image-camera")
-  // const handleOver=()=>{
-  //    image.style.display="block";
-  // }
-  // const handleOut=()=>{
-  //   image.style.display="none"
-  // }
 
   return (
    
