@@ -17,7 +17,7 @@
     border-color: none;
 }
 .link-container:hover{
-   border: 2px solid rgb(64, 64, 168);
+   background-color: #D0D5DD;
 }
 a{
     text-decoration: none;

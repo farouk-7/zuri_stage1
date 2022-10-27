@@ -53,10 +53,23 @@ body{
     font-size: 20px;
     line-height: 30px;
 }
+.icon1{
+    position: absolute;
+    right: 521.5px;
+    top: -33px;
+    width: 40px;
+    height: 40px;
+    padding: 12.99px 12.31px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    cursor: pointer;
 
-
+}
 .icon,
-.icon2{
+.icon2,
+.icon3{
     position: absolute;
     right: 400px;
     top: -20px;
@@ -67,25 +80,67 @@ body{
     align-items: center;
     justify-content: center;
 }
-.icon2{
+.icon11{
+    position: absolute;
+    right: 420px;
+    top: -37px;
+    width: 40px;
+    height: 40px;
+    padding: 12.99px 12.31px;
+    display: inline-flex;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+    justify-content: center;
+
+}
+.icon4{
+    position: absolute;
+    right: 420px;
+    top: -37px;
+    width: 40px;
+    height: 40px;
+    padding: 12.99px 12.31px;
+    display: inline-flex;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+    justify-content: center;
+}
+.icon2,
+.icon3{
     display: none;
 }
+
 .icon img{
     cursor: pointer;
 }
-.icon img:hover{
-   
+.icon2 img{
+    cursor: pointer;
 }
+
+.icon3 img{
+    cursor: pointer;
+}
+
+
 @media (max-width: 768px){
 .icon,
-.icon2{
+.icon2,
+.icon3{
     right: 50px;
 }
 .icon{
     display: none;
 }
-.icon2{
+.icon2,
+.icon3{
     display: block;
+}
+.icon4{
+    display: none;
+    right: 54px;
+    top: -24.1px;
 }
 .name{
     font-size: 18px;
