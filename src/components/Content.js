@@ -44,7 +44,7 @@ function Content() {
     <div className='contents'>
         <div className='contents-container'>
             <div id='container'>
-              <img src ='./images/DP.png' id='profile__image'></img>
+              <img src ='./images/ope.jpg' id='profile__img'></img>
               <div className='overlay'>
                 <div className='camera'>
                   <img src='./images/camera.png' id='image-camera'></img>
@@ -52,7 +52,8 @@ function Content() {
               </div>
             </div>
 
-            <div className='name'>Annette Black</div>
+            <div id='twitter'>@noblefarz7</div>
+            <h1 id='slack'>KingFarouk</h1>
             <div className='icon'><img src='./images/arrow.svg' id='default' onMouseEnter={workEnter}></img></div>
             <div className='icon1'><img src='./images/sharestate.png' onMouseOut={handleave} onClick={handleClick}></img></div>
             <div className='icon11'><img src='./images/focus.png' onClick={actionClick}></img></div>

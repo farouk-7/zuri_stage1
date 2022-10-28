@@ -4,7 +4,7 @@
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 .social-icons h1{
     font-family: 'Inter', sans-serif;
@@ -12,10 +12,10 @@
 }
 
 .social-icons img{
-    height: 13px;
-    width: 13px;
+    height: 20px;
+    cursor: pointer;
+    width: 20px;
 }
 .fa-github{
-    height: 23.45px;
-    width: 24px;
+   font-size: 20px;
 }
