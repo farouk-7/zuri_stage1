@@ -147,6 +147,8 @@ input::placeholder{
 #btn__submit:hover{
     background-color: #175cd3;
 }
+
+
 @media (max-width: 768px){
     .contact .contents-container{
         display: flex;
@@ -156,17 +158,6 @@ input::placeholder{
         margin-top: 64px;
         margin-left: 16px;
         margin-right: 16px;
-    }
-}
-@media (max-width: 375px){
-    .contact .contents-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 64px;
-        margin-left: 17px;
-        margin-right: 17px;
     }
     .text{
         margin-right: 30px;
@@ -222,5 +213,138 @@ input::placeholder{
         width: 40px;
         margin-left: 16px;
     }
-   
+}
+@media (max-width: 375px){
+    .contact .contents-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 64px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .text{
+        margin-right: 30px;
+    }
+    .contact p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .contact .names{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+    label{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    #first_name,
+    #last_name{
+    width: 343px;
+    }
+    #email{
+        width: 343px;
+    }
+    #message{
+        height: 132px;
+        width: 343px;
+    }
+    #btn__submit{
+        width: 343px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .check{
+        gap: 0px;
+        margin-left: 16px;
+        margin-right: 16px;
+        align-items: flex-start;
+    }
+    .check p{
+        max-width:311px ;
+        line-height: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    #box{
+        height: 40px;
+        width: 40px;
+        margin-left: 16px;
+    }
+    
+    @media (max-width: 430px){
+        .contact .contents-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 64px;
+            margin-left: 17px;
+            margin-right: 17px;
+        }
+        .text{
+            margin-right: 10px;
+            
+        }
+        .contact p{
+            font-size: 18px;
+            line-height: 28px;
+            
+        }
+        .contact .names{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+        }
+        label{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+        #first_name,
+        #last_name{
+        width: 343px;
+        }
+        #email{
+            width: 343px;
+        }
+        #message{
+            height: 132px;
+            width: 343px;
+        }
+        #btn__submit{
+            width: 343px;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+        .check{
+            gap: 0px;
+            margin-left: 16px;
+            margin-right: 16px;
+            align-items: flex-start;
+        }
+        .check p{
+            max-width:311px ;
+            line-height: 24px;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+        #box{
+            height: 40px;
+            width: 40px;
+            margin-left: 16px;
+        }
+       
+    }
 }
