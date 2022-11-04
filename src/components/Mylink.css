@@ -4,7 +4,8 @@
 #books,
 #book__python,
 #pitch,
-#book__design{
+#book__design,
+#contact{
   display:flex;
   flex-direction: column;
    text-align: center;
@@ -37,6 +38,13 @@
 #book__design:hover{
   background-color: #D0D5DD;
 }
+#book__design:hover{
+  background-color: #D0D5DD;
+}#book__design:hover{
+  background-color: #D0D5DD;
+}#contact:hover{
+  background-color: #D0D5DD;
+}
 a{
     text-decoration: none;
     color: #101828;
@@ -57,7 +65,8 @@ p{
 #books,
 #book__python,
 #pitch,
-#book__design{
+#book__design,
+#contact{
     margin: 24px 16px;
     font-size: 14px;
 } 

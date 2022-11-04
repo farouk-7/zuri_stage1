@@ -1,8 +1,10 @@
 import React from 'react'
-import './Link.css';
+import './Mylink.css';
+import { Link } from "react-router-dom"
 
-function Link() {
+function Mylink() {
   return (
+ 
     <div className='contents-container'>
          <div className='Link_content'>
             <a href='https://www.twitter.com/opeoluwaoyedeji' id='Twitter'>Twitter Link</a>
@@ -27,9 +29,12 @@ function Link() {
             <a href="https://books.zuri.team/design-rules/"id='book__design'>Design Books<p>
                Get your hand on the free design books offered by our team, know the rules in styling an amazing product and application</p></a>
          </div>
+         <a href="/contact" id="contact">Contact me</a>
+        
+         
          
     </div>
   )
 }
 
-export default Link
+export default Mylink
