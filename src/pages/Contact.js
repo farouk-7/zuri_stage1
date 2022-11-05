@@ -3,7 +3,7 @@ import './Contact.css'
 import Footer from '../components/Footer'
 
 function Contact() {
-   const name="KingFarouk"
+   const name="Oyedeji Opeoluwa"
 
    const handleSubmit=(e)=>{ 
     const message= document.getElementById('message');
